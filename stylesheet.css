@@ -1,0 +1,36 @@
+/***** Main menu styling *****/
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFAF1;
+}
+.nav ul {
+  list-style: none;
+  background: #FFFAF1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color: #32612D;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  font-family: merriweather;
+  transition: 0.4s;
+}
+
+.nav a:hover {
+  background-color: #728C69
+}
+
+Justify content: stretch
+Size Max content
