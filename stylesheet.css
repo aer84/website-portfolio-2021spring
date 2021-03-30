@@ -12,9 +12,11 @@ body {
 }
 
 .logo {
-  height: 250px;
-  width: 100%;
-  padding: 50px;
+  max-width: 50em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 nav {
@@ -24,6 +26,7 @@ nav {
   padding: 20px 0;
   display: flex;
   justify-content: center;
+
 }
 
 nav a {
@@ -45,6 +48,11 @@ nav a:hover {
 .page {
   display: flex;
   flex-wrap: wrap;
+  max-width: 50em;
+}
+
+.active a {
+  background-color: #728C69 /* Sage Green */
 }
 
 .section {
@@ -69,8 +77,16 @@ nav a:hover {
 }
 
 .photo-grid-item {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+}
+
+.product-grid-item {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
 }
 
 .content {
@@ -94,7 +110,6 @@ nav a:hover {
 h2 {
   color: #32612D; /* Forest Green */
   font-size: 20px;
-  text-align: right;
 }
 
 .hands {
@@ -131,6 +146,90 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
+.books {
+  height: 175px;
+}
+
+.podcasts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Testing out something here */
+
+.column {
+  float: left;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+.row {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+.grow {
+transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+transform: scale(1.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 50px;
+}
+
+/* Hide the images by default */
+.scrollpics {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #728C69; /* Sage Green */
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #728C69; /* Sage Green */
+}
+
+/* Testing concluded */
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
