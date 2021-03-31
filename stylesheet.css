@@ -82,15 +82,23 @@ nav a:hover {
 }
 
 .product-grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product-grid-item img {
   width: 200px;
   height: 200px;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row;
 }
 
 .content {
-  background-color: #728C69 /* Sage Green */
+  background-color: #728C69; /* Sage Green */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +107,7 @@ nav a:hover {
 }
 
 .facts {
-  background-color: #728C69 /* Sage Green */
+  background-color: #728C69; /* Sage Green */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,13 +146,22 @@ h2 {
   height: 50px;
   width:300px;
   font-family: Georgia, serif;
+  margin: 1em auto 3em;
 }
 
 .button1 a:hover {
-  background-color: #728C69 /* Sage Green */
+  background-color: #728C69; /* Sage Green */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button1 a {
+  color: white;
+}
+
+.button1 a:visited {
+  color: white;
 }
 
 .books {
@@ -155,6 +172,14 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.Instagram1, .Instagram2, .Instagram3, .Instagram4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 12.5em;
+
 }
 
 /* Testing out something here */
