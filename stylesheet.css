@@ -42,7 +42,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #728C69 /* Sage Green */
+  background-color: #728C69; /* Sage Green */
+  color: #de7a5f; /* Terra Cotta */
 }
 
 .page {
@@ -99,6 +100,21 @@ nav a:hover {
   height: 200px;
 }
 
+.product-grid-item button {
+  background-color: #545775; /* Blue */
+  margin: 1em;
+  padding: 10px;
+}
+
+.product-grid-item button a {
+  color: white;
+  text-decoration: none;
+}
+
+.product-grid-item button a:visited {
+  color: white;
+}
+
 .content {
   background-color: #728C69; /* Sage Green */
   display: flex;
@@ -109,12 +125,15 @@ nav a:hover {
 }
 
 .facts {
-  background-color: #728C69; /* Sage Green */
+  background-color: #de7a5f; /* Terra Cotta */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: Georgia, serif;
+  margin: 1em;
+  max-width: 48em;
+  padding-left: 1em;
 }
 
 h2 {
@@ -151,7 +170,7 @@ h2 {
   margin: 1em auto 3em;
 }
 
-.button1 a:hover {
+.button1:hover {
   background-color: #728C69; /* Sage Green */
   display: flex;
   justify-content: center;
@@ -160,10 +179,12 @@ h2 {
 
 .button1 a {
   color: white;
+  text-decoration: none;
 }
 
 .button1 a:visited {
   color: white;
+  text-decoration: none;
 }
 
 .books {
