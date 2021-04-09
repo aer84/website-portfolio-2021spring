@@ -104,7 +104,7 @@ ol li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Old Standard TT', serif;
 }
 
 .product-grid {
@@ -147,7 +147,7 @@ ol li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Old Standard TT', serif;
   margin: 1em;
   max-width: 48em;
   padding-left: 2em;
@@ -164,7 +164,7 @@ ol li {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Old Standard TT', serif;
   margin: 1em;
   max-width: 48em;
   padding-left: 2em;
@@ -214,7 +214,7 @@ h2 {
 .sustainable1 p {
   color: #FFFAF1; /* Off White */
   padding: 1em 1em 1em 2em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Old Standard TT', serif;
 }
 
 .footer {
@@ -305,7 +305,7 @@ h2 {
 
 p {
   color:#28190E; /* Dark Brown */
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Old Standard TT', serif;
 }
 
 h3 {
@@ -329,13 +329,13 @@ h5 {
 li a {
   color: #FFFAF1; /* Off White */
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Old Standard TT', serif;
 }
 
 i a {
   color: #FFFAF1; /* Off White */
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Old Standard TT', serif;
 }
 
 i a:hover {
