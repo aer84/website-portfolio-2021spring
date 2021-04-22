@@ -120,7 +120,7 @@ ol li {
 }
 
 .product-grid-item button {
-  background-color: rgba(140, 96, 87, 0.9); /* Rose Taupe */
+  background-color: rgba(140, 96, 87, 0.8); /* Rose Taupe */
   margin: 1em;
   padding: 10px;
   font-family: 'Old Standard TT', serif;
@@ -142,7 +142,7 @@ ol li {
 }
 
 .content {
-  background-color: rgba(140, 96, 87, 0.9); /* Rose Taupe */
+  background-color: rgba(140, 96, 87, 0.8); /* Rose Taupe */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,7 +160,7 @@ ol li {
 }
 
 .facts {
-  background-color: rgba(140, 96, 87, 0.9); /* Rose Taupe */
+  background-color: rgba(140, 96, 87, 0.8); /* Rose Taupe */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -172,7 +172,7 @@ ol li {
 }
 
 .classes {
-  background-color: rgba(140, 96, 87, 0.9); /* Rose Taupe */
+  background-color: rgba(140, 96, 87, 0.8); /* Rose Taupe */
   display: flex;
   flex-direction: column;
   font-family: Georgia, serif;
